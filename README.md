@@ -2,6 +2,16 @@
 
 2024年金大祭CASる通信投稿技術同人誌
 
+## 使い方
+
+1. `git clone <https://github.com/CASru-IT/2024ku-fes-tech-fanzine.git`
+2. `cd 2024ku-fes-tech-fanzine`
+3. `articles/`ディレクトリにマークダウンファイルを配置
+4. `images/`ディレクトリに画像ファイルを配置
+5. `manifest.json`を編集
+6. `python/app.py`を実行
+7. `output/output.pdf`が生成される
+
 ## manifest.json
 
 復数のマークダウンファイルを1つのTypstファイルに変換するファイルを纏めたファイル。`article/`ディレクトリ以下に配置しないと動作しない。
