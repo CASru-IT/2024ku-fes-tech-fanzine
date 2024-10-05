@@ -8,7 +8,7 @@ from pathlib import Path
 base_dir = Path(
     f"{__file__}"
 ).parent.parent  # プロジェクトのルートディレクトリを設定。このファイルの2つ上の階層がプロジェクトルートとしている
-article_dir = base_dir / Path("article")  # 記事のディレクトリを設定
+article_dir = base_dir / Path("articles")  # 記事のディレクトリを設定
 output_dir = base_dir / Path("output")  # 出力先のディレクトリを設定
 output_dir.mkdir(parents=True, exist_ok=True)
 manifest_file = article_dir / Path("manifest.json")
@@ -44,7 +44,13 @@ for article in reversed(articles_data):
 
     for pattern, replacement in patterns.items():
         markdown_text = re.sub(pattern, replacement, markdown_text, flags=re.MULTILINE)
-    output_data += "\n" + markdown_text
+
+    output_data += (
+        "\n"
+        + f"""= {article["title"]}
+{article["author"]}"""
+        + markdown_text
+    )
 
 with tempfile.NamedTemporaryFile(
     mode="w", delete=False, dir=output_dir, encoding="utf-8"
