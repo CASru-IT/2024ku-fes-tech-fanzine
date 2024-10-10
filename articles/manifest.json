@@ -1,5 +1,11 @@
 {
-  "header": "./header.typ",
-  "imagesDir": "./images",
-  "articles": []
+  "header":"./header.typ",
+  "imagesDir":"./images",
+  "articles":[
+    {
+      "title":"開発系サークルにおけるGitHub活用術",
+      "author":"dugite",
+      "path":"./dugite.md"
+    }
+  ]
 }
