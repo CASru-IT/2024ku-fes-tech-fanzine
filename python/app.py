@@ -48,7 +48,8 @@ for article in reversed(articles_data):
     output_data += (
         "\n"
         + f"""= {article["title"]}
-{article["author"]}"""
+{article["author"]}
+"""
         + markdown_text
     )
 
