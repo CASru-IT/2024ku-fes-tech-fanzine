@@ -1,5 +1,11 @@
 {
   "header": "./header.typ",
   "imagesDir": "./images",
-  "articles": []
+  "articles": [
+    {
+      "title": "脱PC初心者入門",
+      "author": "ToYama",
+      "path": "./ToYama.md"
+    }
+  ]
 }
