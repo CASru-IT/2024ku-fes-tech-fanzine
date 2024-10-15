@@ -3,14 +3,14 @@
   "imagesDir": "./images",
   "articles": [
     {
-      "title":"開発系サークルにおけるGitHub活用術",
-      "author":"dugite",
-      "path":"./dugite.md"
-    },
-    {
       "title": "脱PC初心者入門",
       "author": "ToYama",
       "path": "./ToYama.md"
+    },
+    {
+      "title": "開発系サークルにおけるGitHub活用術",
+      "author": "dugite",
+      "path": "./dugite.md"
     }
   ]
 }
