@@ -53,9 +53,7 @@ for article in reversed(articles_data):
         + markdown_text
     )
 
-with tempfile.NamedTemporaryFile(
-    mode="w", delete=False, dir=output_dir, encoding="utf-8"
-) as output_file:
+with open(output_dir / "output.typ", mode="w", encoding="utf-8") as output_file:
     output_file.write(output_data)
     output_file.flush()
 
