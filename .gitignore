@@ -1,3 +1,4 @@
 *.typ
 *.pdf
 __pycache__
+tmp*
