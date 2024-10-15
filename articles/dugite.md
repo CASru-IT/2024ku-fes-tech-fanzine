@@ -1,5 +1,3 @@
-# 開発系サークルにおけるGitHub活用術
-
 ## はじめに
 
 GitHubといえば世界で最も有名なGitのホスティングサービスであることは言わずもがな、ソースコードの管理以外にも様々な機能が備わっている。
@@ -81,7 +79,7 @@ GitHubはたくさんの機能があって初心者はどうすればよいか�
 ## 学習の参考にした書籍、サイト
 
 - GitHub実践入門 ~Pull Requestによる開発の変革 (WEB+DB PRESS plus)
-https://amzn.asia/d/jgv4TX5
+[https://amzn.asia/d/jgv4TX5](https://amzn.asia/d/jgv4TX5)
 
 - GitHub のトレーニング | Microsoft Learn
-  https://learn.microsoft.com/ja-jp/training/github/
+  [https://learn.microsoft.com/ja-jp/training/github/](https://learn.microsoft.com/ja-jp/training/github/)
